@@ -19,7 +19,8 @@
   }
 } */
 :root {
-  --background: #0a0a0a; /* Dark background always */
+  /* --background: #0a0a0a; Dark background always */
+  --background: black;
   --foreground: #ededed; /* Light text always */
 }
 html {
