@@ -8,7 +8,7 @@ import FaqWithImage from "./FaqWithImage/FaqWithImage";
 import Footer from "./Footer/Footer";
 
 const LandingPage = () => {
-  return <div>
+  return <div className="overflow-hidden">
     <NavBar />
     <HeroSection />
     <ShowCase />

@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10">
         
         {/* Logo Section */}
-        <div className="flex-1 flex w-xl justify-center">
+        <div className="flex-1 w-xl justify-center hidden md:flex">
           <img src="/images/logo.png" alt="Optodoce Logo" className="w-80 mb-6" />
         </div>
 

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function ShowCase() {
   return (
-    <section className="w-full px-4 md:px-8 py-12 bg-black text-white">
+    <section className="w-full px-4 md:px-8 py-2 md:py-12 bg-black text-white">
       <div className="flex flex-col md:flex-row gap-8 max-w-7xl mx-auto items-center">
         
         {/* Left Part - Big Image + Text */}
@@ -19,7 +19,7 @@ export default function ShowCase() {
           <motion.img
             src="/images/img_3.png"
             alt="Main Creative"
-            className="w-full h-[470px] object-contain rounded-2xl image_hover"
+            className="w-full h-[270px] md:h-[470px] object-contain rounded-2xl image_hover"
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
           />

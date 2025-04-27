@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
-    <section className="w-full mt-0 md:mt-16 bg-black text-white flex items-center justify-center px-4 md:px-8 overflow-hidden pb-8">
+    <section className="w-full mt-4 md:mt-16 bg-black text-white flex items-center justify-center px-4 md:px-8 overflow-hidden pb-8">
       
       {/* Wrapper Flex */}
       <div className="flex w-full max-w-10xl items-center justify-between">
@@ -28,7 +28,7 @@ export default function HeroSection() {
 
         {/* Center Content */}
         <motion.div 
-          className="flex flex-col items-center text-center flex-[2] md:flex-[4] px-4"
+          className="flex flex-col items-center text-center flex-[2] md:flex-[4] px-0 md:px-4"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false }}
@@ -105,7 +105,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.8 }} 
         >
           {/* Dashed Border Circle */}
           <div className="absolute top-[-10px] w-48 h-48 border-t-2 border-dashed border-white rounded-full"></div>
