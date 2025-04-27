@@ -14,7 +14,7 @@ export default function HeroSection() {
           className="hidden md:flex flex-1 justify-center"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           transition={{ duration: 0.8 }}
         >
           <motion.img
@@ -31,7 +31,7 @@ export default function HeroSection() {
           className="flex flex-col items-center text-center flex-[2] md:flex-[4] px-4"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           transition={{ duration: 0.8 }}
         >
           <motion.h1 
@@ -82,7 +82,7 @@ export default function HeroSection() {
             className="flex items-center mt-6 gap-4 flex-wrap justify-center"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
+            viewport={{ once: false }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <span className="text-gray-400 text-sm">Popular tags:</span>
@@ -104,7 +104,7 @@ export default function HeroSection() {
           className="hidden md:flex flex-1 justify-center relative"
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false }}
           transition={{ duration: 0.8 }}
         >
           {/* Dashed Border Circle */}
