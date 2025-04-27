@@ -14,7 +14,7 @@ export default function ExploreGallery() {
 
         {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-6">
-          Create anything with <span className="bg-gradient-to-r from-[#6A41FB] to-[#F49957] bg-clip-text text-transparent">Optpdoce</span> AI
+          Create anything with <span className="gradient_text">Optpdoce</span> AI
         </h2>
 
         {/* Category Filters */}
@@ -32,7 +32,7 @@ export default function ExploreGallery() {
       {/* Left Big Image */}
       <div className="flex-1">
         <div className="h-[600px] overflow-hidden rounded-2xl">
-          <img src="/images/img_11.png" alt="Left" className="w-full h-full object-cover" />
+          <img src="/images/img_11.png" alt="Left" className="w-full h-full object-cover image_hover" />
         </div>
       </div>
 
@@ -40,21 +40,21 @@ export default function ExploreGallery() {
       <div className="flex flex-col gap-6 flex-2">
         <div className="flex gap-6">
           <div className="flex-1 h-[290px] overflow-hidden rounded-2xl">
-            <img src="/images/img_12.png" alt="Top Left" className="w-full h-full object-cover" />
+            <img src="/images/img_12.png" alt="Top Left" className="w-full h-full object-cover image_hover" />
           </div>
           <div className="flex-1 h-[290px] overflow-hidden rounded-2xl">
-            <img src="/images/img_13.png" alt="Top Right" className="w-full h-full object-cover" />
+            <img src="/images/img_13.png" alt="Top Right" className="w-full h-full object-cover image_hover" />
           </div>
         </div>
         <div className="h-[290px] overflow-hidden rounded-2xl">
-          <img src="/images/img_14.png" alt="Bottom" className="w-full h-full object-cover" />
+          <img src="/images/img_14.png" alt="Bottom" className="w-full h-full object-cover image_hover" />
         </div>
       </div>
 
       {/* Right Big Image */}
       <div className="flex-1">
         <div className="h-[600px] overflow-hidden rounded-2xl">
-          <img src="/images/img_15.png" alt="Right" className="w-full h-full object-cover" />
+          <img src="/images/img_15.png" alt="Right" className="w-full h-full object-cover image_hover" />
         </div>
       </div>
 

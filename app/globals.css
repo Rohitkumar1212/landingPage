@@ -42,7 +42,11 @@ body {
   .gradient_text {
     @apply bg-gradient-to-r from-[#6A41FB] to-[#F49957] bg-clip-text text-transparent;
   }
-  /* .gradient_btn:hover {
-    @apply from-[#F49957] to-[#6A41FB];
-  } */
+  .image_hover {
+    @apply transition-transform duration-300 ease-in-out;
+  }
+  
+  .image_hover:hover {
+    @apply scale-105 brightness-110;
+  }
 }
