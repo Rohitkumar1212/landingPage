@@ -62,11 +62,11 @@ export default function Navbar() {
     </div>
 
     {/* Menu Links */}
-    <div className="flex flex-col items-center gap-6">
-      <a href="#" className="hover:text-gray-400 transition">Service 1</a>
-      <a href="#" className="hover:text-gray-400 transition">Service 2</a>
-      <a href="#" className="hover:text-gray-400 transition">Service 3</a>
-      <a href="#" className="hover:text-gray-400 transition">Service 4</a>
+    <div className="flex flex-col items-center gap-6 w-full">
+      <a href="#" className="hover:text-gray-400 transition">Home</a>
+      <a href="#" className="hover:text-gray-400 transition">Features</a>
+      <a href="#" className="hover:text-gray-400 transition">Pricing</a>
+      <a href="#" className="hover:text-gray-400 transition">About</a>
 
       <hr className="border-gray-700 w-2/3" />
 
