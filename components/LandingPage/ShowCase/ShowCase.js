@@ -27,7 +27,7 @@ export default function ShowCase() {
           {/* Text Content */}
           <div className="flex flex-col gap-4">
             <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-              We're passionate about empowering creatives with the tools they need to <span className="text-pink-400">bring their vision to life</span> — that's why we've developed
+              We&apos;re passionate about empowering creatives with the tools they need to <span className="text-pink-400">bring their vision to life</span> — that&apos;s why we&apos;ve developed
             </p>
 
             {/* Button + Customer Count */}
