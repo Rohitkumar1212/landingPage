@@ -61,7 +61,7 @@ export default function Navbar() {
       <div className="w-8" />
     </div>
 
-    {/* Menu Links */}
+    {/* Menu Links  */}
     <div className="flex flex-col items-center gap-6 w-full">
       <a href="#" className="hover:text-gray-400 transition">Home</a>
       <a href="#" className="hover:text-gray-400 transition">Features</a>
