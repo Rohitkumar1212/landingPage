@@ -1,11 +1,10 @@
-import React from "react";
-import NavBar from "./NavBar";
-import HeroSection from "./Hero/HeroSection";
+import NavBar from "@/components/LandingPage/NavBar";
+import HeroSection from "@/components/LandingPage/Hero/HeroSection";
 import ShowCase from "@/components/LandingPage/ShowCase/ShowCase";
 import AIHeroSection from "@/components/LandingPage/AIHeroSection/AIHeroSection";
-import ExploreGallery from "./ExploreGallery/ExploreGallery";
-import FaqWithImage from "./FaqWithImage/FaqWithImage";
-import Footer from "./Footer/Footer";
+import ExploreGallery from "@/components/LandingPage/ExploreGallery/ExploreGallery";
+import FaqWithImage from "@/components/LandingPage/FaqWithImage/FaqWithImage";
+import Footer from "@/components/LandingPage/Footer/Footer";
 
 const LandingPage = () => {
   return <div className="overflow-hidden">

@@ -19,7 +19,7 @@ export default function Footer() {
           
           {/* About */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">About</h3>
+            <h3 className="text-lg font-semibold text-[#6A41FB] mb-4">About</h3>
             <ul className="space-y-2 text-sm">
               {["Terms & Conditions", "Privacy Policies", "Careers", "Contact Us"].map((item, index) => (
                 <li key={index}>
@@ -33,7 +33,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Services</h3>
+            <h3 className="text-lg font-semibold text-[#6A41FB] mb-4">Services</h3>
             <ul className="space-y-2 text-sm">
               {["Image Generator", "Creative Tools", "Design Generator", "Excellent Support"].map((item, index) => (
                 <li key={index}>
@@ -47,7 +47,7 @@ export default function Footer() {
 
           {/* Address */}
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Address</h3>
+            <h3 className="text-lg font-semibold text-[#6A41FB] mb-4 text-center md:text-left">Address</h3>
             <ul className="space-y-4 text-sm">
               <li className="flex items-start gap-2">
                 <FaMapMarkerAlt className="text-purple-400 mt-1" />
